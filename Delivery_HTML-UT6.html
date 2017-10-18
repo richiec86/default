@@ -1,0 +1,363 @@
+<!--Delivery_HTML-->
+<style>
+	h1.pink-title {
+		color: #dc218a
+	}
+	
+	.question {
+		font-size: 16px;
+		text-transform: uppercase
+	}
+	
+	.table > tbody > tr.click-row > td {
+		vertical-align: middle;
+		padding-top: 10px
+	}
+	
+	ul.delivery-bullets li {
+		list-style-type: none;
+		margin-top: 5px
+	}
+	
+	.pink-bullet {
+		color: #dc218a;
+	}
+	
+	ul.help-bullets {
+		list-style-type: none;
+	}
+	
+	a.linkUnderline {
+		color: #1a1a1a;
+		text-decoration: underline;
+	}
+	
+	a.linkUnderline:hover {
+		color: #dc218a!important;
+		text-decoration: underline!important;
+	}
+	
+	a.linkUnderline:active {
+		color: #dc218a!important;
+		text-decoration: underline!important;
+	}
+	
+	a.linkUnderline:focus {
+		color: #dc218a!important;
+		text-decoration: underline!important;
+	}
+	
+	.table-header {
+		background-color: #ccc;
+		color: #000;
+		max-height: 61px;
+		height: 100%
+	}
+	
+	@media screen and (max-width: 767px) {
+		.table-header {
+			display: none;
+		}
+		tr.click-row > td {
+			display: block;
+		}
+		.table>tbody>tr>td,
+		.table>tbody>tr>th,
+		.table>tfoot>tr>td,
+		.table>tfoot>tr>th,
+		.table>thead>tr>td,
+		.table>thead>tr>th {
+			text-align: center;
+			border: 0px;
+		}
+		.click-row {
+			border: 1px solid #d6d6d6;
+			padding-bottom: 5%;
+		}
+		.dbMob {
+			display: block !important;
+		}
+		.dnMob {
+			display: none!important;
+		}
+		.paddMob {
+			padding-left: 5%;
+			padding-right: 5%;
+		}
+		.alignLeft {
+			text-align: left!important;
+		}
+	}
+	
+	@media screen and (min-width: 768px) and (max-width: 998px) {
+		.footer-block p {
+			width: 50%;
+			margin: 0 auto;
+		}
+	}
+	
+	.footer-block ul {
+		font-size: 16px;
+	}
+	
+	.disappear {
+		display: none;
+	}
+	
+	.table-header {
+		background-color: #cccccc;
+		color: #ffffff;
+		max-height: 61px;
+		height: 100%;
+	}
+	
+	tr > th {
+		line-height: 100% !important;
+	}
+	
+	#footer-block-container {
+		margin-left: 10%;
+		margin-right: 10%;
+		clear: both;
+	}
+	
+	.footer-block {
+		/*max-width: 378px;*/
+		width: 100%;
+		height: 250px;
+		border: 1px solid #d6d6d6;
+		display: inline-table;
+	}
+	
+	.footer-block p {
+		width: 50%;
+		margin: 0 auto;
+	}
+	
+	.footer-block img {
+		margin-top: 10%;
+	}
+	
+	@media screen and (min-width: 767px) {
+		tr td:nth-child(1) > img {
+			float: right;
+			margin-right: 24%;
+		}
+	}
+</style>
+
+<div class="container-fluid">
+	<div class="row">
+		<h1 class="text-center pink-title">Delivery</h1>
+	</div>
+	<div class="row">
+		<p class="text-center paddMob">Delivery is subject to stock availability and credit card authorisation. All parcels require a signature so we might try a neighbour either side if you are not home. If we are unable to deliver then a card will be left with a number for you to contact and rearrange delivery.</p>
+	</div>
+	<table class="table">
+		<thead>
+			<tr class="table-header">
+				<th style="width: 20%;" colspan="2">Delivery Option</th>
+				<th style="width: 20%;">Cost</th>
+				<th style="width: 20%;">Cut Off</th>
+				<th style="width: 35%;">Delivery Times</th>
+				<th style="width: 5%;">&nbsp;</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class="click-row del-clickcollect">
+				<td style="width: 50px;"><img src="//cdn.joules.com/medias/ClickCollect-icon-50x50px.png?context=bWFzdGVyfGltYWdlc3wxNTUwfGltYWdlL3BuZ3xpbWFnZXMvaDVhL2gwNC85MTE5NDIzNjkyODMwLnBuZ3xiZDQ4NGY4ZGFiMTYxMmY0ZTI0ZjUzYjk4YjgzNGZkYmJmZDIzYTM1NWE2MDVmZTc2MWUyZTZkYjQ5NDNlNTYw" alt="" width="50" height="50" /></td>
+				<td><strong class="question">Click &amp; Collect</strong></td>
+				<td><strong class="question">Free</strong></td>
+				<td>Order by 1pm                 
+				</td>
+				<td><span class='del-clickcollect-xmas'></span><br>Available to collect in-store from 4pm <span class='del-clickcollect-days'></span> - Exclusions apply</td>
+				<td class="td-details">+ Details</td>
+			</tr>
+			<tr class="click-rowa">
+				<td class="dbMob alignLeft" colspan="6">
+					<p><strong>Price:</strong>
+						<br /> Free</p>
+					<p><strong>Delivery: <span class='del-clickcollect-xmas'></span></strong>
+						<br /> Order by 1pm for collection in your selected store from 4pm <span class='del-clickcollect-days'></span> (Mon - Fri).</p>
+					<p><strong>Exclusions:</strong>
+						<br /> Please note that our Click and Collect delivery service will be 1 additonal working day for the following stores: Aberdeen, Edinburgh, Glasgow, Truro. All non-Mainland UK stores can take up to 2 additional working days and includes: Belfast, Dublin, Kenmare</p>
+					<br />
+					<p><strong>How to use Click &amp; Collect</strong>
+						<br /> <strong>1.</strong> Place your order online. As part of the checkout process you will be offered the choice of home delivery or Click &amp; Collect (if available for the product(s) you have selected). Simply enter your postcode or town to find your nearest participating store, select and proceed to payment.
+						<br /> <strong>2.</strong> Once confirmed, we will send you an email and SMS text when your order is ready to collect. Each store states its estimated delivery time and opening hours.
+						<br /> <strong>3.</strong> What will I need to collect my order? Simply bring along any email or text message you&rsquo;ve received relating to your order. You can show it on your phone or bring along a print out. You&rsquo;ll also be asked security questions about your order and address and be asked to sign for your order. Your order will be held in store for seven days.</p>
+					<br />
+					<p><strong>FAQ's</strong></p>
+					<p><strong>What if my postcode isn't recognised?</strong>
+						<br /> If your postcode isn&rsquo;t recognised then you can simply override this by entering it manually.</p>
+					<br />
+					<p><strong>How can I save my delivery address?</strong>
+						<br /> To save your delivery address for your next order you will need to create an account at the end of checkout by entering a password.</p>
+					<br />
+					<p><strong>Why do you ask for a mobile number?</strong>
+						<br /> This is so we can text you to let you know what time to expect your parcel</p>
+					<br />
+					<p><strong>What's an address nick name?</strong>
+						<br /> This is so you can save an address to save you having to re-enter details each time you order. Enter a nickname that is easily recognisable for next time</p>
+					<br />
+					<p><strong>Someone collecting on your behalf</strong>
+						<br /> If you would like someone else to collect your order on your behalf, they need to bring the confirmation email (either printed or on their phone) along with the photo ID in the name of the person that has placed the order.</p>
+				</td>
+			</tr>
+			<tr class="click-row del-collectplus">
+				<td style="width: 50px;"><img src="/medias/Collectplus.png?context=bWFzdGVyfGltYWdlc3wxMTQzfGltYWdlL3BuZ3xpbWFnZXMvaDc2L2hiMS85MDgyODI0MjYxNjYyLnBuZ3w0OGZlNDNkYjE3MzNkZWE4YzlkNWNhNzFkM2JkMWQ0MGZiZjY1OTYyOTM2ZWQ3ZWViMGM1ODQwZWI4NjJmOTcy" alt="" width="30" height="30" /></td>
+				<td><strong class="question">CollectPLUS</strong></td>
+				<td><strong class="question">&pound;3.50 <!--FREE--></strong></td>
+				<td>Order by 1pm
+				</td>
+				<td><span class='del-collectplus-xmas'></span><br>Available to collect within <span class="del-collectplus-days"></span> working days</td>
+				<td class="td-details">+ Details</td>
+			</tr>
+			<tr class="click-rowa">
+				<td class="dbMob alignLeft" colspan="6">
+					<p><strong>Price:</strong>
+						<br /> &pound;3.50
+						<!-- Free-->
+					</p>
+					<p><strong>Delivery: <span class='del-collectplus-xmas'></span></strong>
+						<br /> Delivery times are within <span class="del-collectplus-days"></span> working days of your order being placed.</p>
+					<p><strong>What do I need?</strong></p>
+					<p class="MsoNormal"><span lang="EN" style="mso-ansi-language: EN;">Once your order has been received at your chosen CollectPlus store, you will receive your unique barcode via email, and you can go and collect your order. If you've given us your mobile phone number, we'll also send you a text message with your barcode when your goods are ready for collection. The time of day your order is available will vary as it depends on the time your order is scanned in as received by the CollectPlus store.<br /> <br /> Your confirmation email and/or text will contain your unique barcode, so please bring this with you as proof of purchase, along with proof of ID. For your protection against fraud, we can&rsquo;t release your order without seeing proof of ID. You can use any of the following as proof of ID:<br /><br /> &bull; Driving License<br /> &bull; Passport<br /> &bull; Utility/mobile phone bill<br /> &bull; Wage Slip<br /> &bull; Bank statement or bank/building society book<br /> &bull; Cheque guarantee/credit/debit card or Cheque book<br /><br /> We're happy for someone else to collect your order, but the person you've nominated must present your CollectPlus barcode, and your proof of ID. The ID presented must be in the name of the person who placed the order.<br /><br /> Your order will be available for collection at your chosen store for 10 days, after which it will be returned to our warehouse and your account will be refunded, but please allow up to 2 weeks for this. </span></p>
+				</td>
+			</tr>
+			<tr class="click-row del-standard">
+				<td style="width: 50px;"><img src="//cdn.joules.com/medias/Delivery-icon-50x50px.png?context=bWFzdGVyfGltYWdlc3wxMzg1fGltYWdlL3BuZ3xpbWFnZXMvaDk3L2hlMC85MTE5NDIzODIzOTAyLnBuZ3w3Y2E3MjM4Mjk1ZGJiZjM4MjkyNjkxY2YyOGMwYTRmZTgyYTBjYmY0ZDQyOTJmZjZhOWZiZjg0OGU3ZjYzZDU3" alt="" width="50" height="50" /></td>
+				<td><strong class="question">Standard Delivery</strong></td>
+				<td><strong class="question">&pound;3.95 </strong>
+					<br />or free on orders over &pound;49</td>
+				<td>
+				</td>
+				<td><span class='del-standard-xmas'></span><br>Delivered between 8am - 6pm, within <span class="del-standard-days"></span> working days (Mon-Fri)</td>
+				<td class="td-details">+ Details</td>
+			</tr>
+			<tr class="click-rowa">
+				<td class="dbMob alignLeft" colspan="6">
+					<p><strong>Price:</strong>
+						<br /> &pound;3.95 or free over &pound;49
+						<!--Free on all orders for a limited time only.-->
+					</p>
+					<br />
+					<p><strong>Delivery: <span class='del-standard-xmas'></span></strong>
+						<br /> Delivery times are between 8am - 6pm, within <span class="del-standard-days"></span> working days of your order being placed.</p>
+					<br />
+					<p><strong>Exclusions:</strong>
+						<br /> Please be aware that delivery may take a little longer to these areas: The Scottish Isles, Channel Islands, Isle Of Wight, Isle of Man, Northern Ireland and the following postcodes: AB, DD, DG, EH, FK, G83, G84, HS, IM, IOM, IV, KA, KW, KY, ML, PA, PH, PO, TD, TR, ZE.</p>
+				</td>
+			</tr>
+			<tr class="click-row del-nextday">
+				<td style="width: 50px;"><img src="//cdn.joules.com/medias/ExpressDelivery-icon-50x50px.png?context=bWFzdGVyfGltYWdlc3wxNDM3fGltYWdlL3BuZ3xpbWFnZXMvaDQyL2hhYy85MTE5NDIzODg5NDM4LnBuZ3wxODkyNTkyMTkzNDU0NTYxNTg0ZjZjNGNhMzA4NzQ3NDA0MmQxZDEwMjFlNGUxOGU3MGI2ODZlNzQwMDBiYzY5" alt="" width="50" height="50" /></td>
+				<td><strong class="question">Next Day Delivery</strong></td>
+				<td><strong class="question">&pound;5.95</strong></td>
+				<td>Order by 8pm</td>
+				<td><span class='del-nextday-xmas'></span><br>Delivered between 8am-6pm, Mon-Fri, the next working day.</td>
+				<td class="td-details">+ Details</td>
+			</tr>
+			<tr class="click-rowa">
+				<td class="dbMob alignLeft" colspan="6">
+					<p><strong>Price:</strong>
+						<br /> &pound;5.95</p>
+					<br />
+					<p><strong>Delivery:<span class='del-nextday-xmas'></span></strong>
+						<br /> Order by 8pm for next day delivery. Delivery times are between 8am - 6pm.</p>
+					<p>*Please note that if you order on a Saturday or Sunday, you will receive your order the following Tuesday.</p>
+					<br />
+					<p><strong>Exclusions:</strong>
+						<br /> Next Day delivery applies for working days only, Bank holidays and weekends will be excluded from the delivery times. Our Next Day delivery service is currently available to mainland UK postcodes only, and excludes the Scottish Isles, Channel Islands, Isle Of Wight, Isle of Man, Northern Ireland and the following postcodes: AB, DD, DG, DT, EH, FK, G83, G84, HS, IM, IOM, IV, KA, KW, KY, ML, PA, PH, PL, PO, TD, TR, ZE.</p>
+				</td>
+			</tr>
+			<tr class="click-row del-saturday">
+				<td style="width: 50px;"><img src="//cdn.joules.com/medias/SaturdayDelivery-icon-50x50px.png?context=bWFzdGVyfGltYWdlc3wxNDQ5fGltYWdlL3BuZ3xpbWFnZXMvaDJkL2g3ZS85MTE5NDI0MDg2MDQ2LnBuZ3w5YjQyZWNjMTNhMDI2Mzk3MjMyNGIyZmI1ODVhNzg3ZGU1MmVlN2VmNjJkNjA1NzAxYjY5ZTFkZTkzNDc5YTMx" alt="" width="50" height="50" /></td>
+				<td><strong class="question">Saturday Delivery</strong></td>
+				<td><strong class="question">&pound;6.95</strong></td>
+				<td></span>Order by 6pm Friday</td>
+				<td><span class='del-saturday-xmas'></span><br>Delivered between 8am-6pm on Saturday</td>
+				<td class="td-details">+ Details</td>
+			</tr>
+			<tr class="click-rowa">
+				<td class="dbMob alignLeft" colspan="6">
+					<p><strong>Price:</strong>
+						<br /> &pound;6.95</p>
+					<br />
+					<p><strong>Delivery:<span class='del-saturday-xmas'></span></strong>
+						<br /> Order by 6pm on a Friday for delivery between 8am and 6pm on Saturday.</p>
+					<br />
+					<p><strong>Exclusions:</strong>
+						<br /> Our Saturday delivery service is currently available to mainland UK postcodes only, and excludes the Scottish Isles, Channel Islands, Isle Of Wight, Isle of Man, Northern Ireland and the following postcodes: AB, DD, DG, EH, FK, G83, G84, HS, IM, IOM, IV, KA, KW, KY, ML, PA, PH, PO, TD, TR, ZE.</p>
+				</td>
+			</tr>
+			<tr class="click-row del-international">
+				<td style="width: 50px;"><img src="//cdn.joules.com/medias/WorldWideDelivery-icon-50x50px.png?context=bWFzdGVyfGltYWdlc3wxNTExfGltYWdlL3BuZ3xpbWFnZXMvaGUwL2g5Yy85MTE5NDI0MjE3MTE4LnBuZ3w1ZGM1MDM5N2JkY2M2ODQ4ZjlkZDIyZjZmOWE1ZjA0NjczMGI5ZjI0MDRiM2FmYjMyY2IyZDZhZWNhM2Y4ZjFi" alt="" width="50" height="50" /></td>
+				<td><strong class="question">International Delivery</strong></td>
+				<td><strong class="question">&pound;9.00-&pound;16.00</strong></td>
+				<td>
+					
+				</td>
+				<td><span class='del-european-xmas'></span><br>International delivery can take up to <span class="del-international-days"></span> working days</td>
+				<td class="td-details">+ Details</td>
+			</tr>
+			<tr class="click-rowa">
+				<td class="dbMob alignLeft" colspan="6">
+					<p><strong>Price:</strong>
+						<br /> International delivery costs are &pound;9.00 for delivery to European countries and &pound;16.00 for delivery to the rest of the world.</p>
+					<br />
+					<p><strong>Delivery: <span class='del-european-xmas'></span></strong>
+						<br /> Delivery can take up to <span class="del-international-days"></span> working days from when your order is placed. For a list of delivery times by country, please <a href="/delivery-worldwide" target="_self">click here.</a> We also offer delivery to British Forces Post Office.</p>
+					<br />
+					<p><strong>Exclusions:</strong>
+						<br /> We now deliver to 40 countries worldwide. Please <a href="/delivery-worldwide" target="_self">click here</a> for full details. If you order products from our site for delivery outside the UK, they may be subject to import duties and taxes which are levied when the delivery reaches the specified destination. You will be responsible for payment of any such import duties and taxes. Please note that we have no control over these charges and cannot predict their amount. Please contact your local customs office for further information before placing your order.</p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<div id="footer-block-container col-xs-10" class="row">
+		<div class="col-sm-4">
+			<div id="exre-block" class="footer-block text-center"><img src="//cdn.joules.com/medias/Return-icon-50x50px.png?context=bWFzdGVyfGltYWdlc3wxNDk0fGltYWdlL3BuZ3xpbWFnZXMvaDgyL2hiMi85MTE5NDI0MDIwNTEwLnBuZ3xjYjZlZDMyNTRjM2NkMjRjNzdiODM4ZWVlMDFlMjgyZWRkNGRkNGMyNjY5OTI5NzVmNjAwZmU2ZDQwZmQ2Zjg5" alt="" width="50" height="50" />
+				<h5><strong>Exchanges &amp;returns</strong></h5>
+				<p><a href="/exchanges_returns/Static.raction" target="_self"> Everything you'll need to know about exchanging or returning your order &gt; </a></p>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div id="help-block" class="footer-block text-center"><img src="//cdn.joules.com/medias/Contact-icon-50x50px.png?context=bWFzdGVyfGltYWdlc3wxMzk1fGltYWdlL3BuZ3xpbWFnZXMvaDhiL2gxYS85MTE5NDIzNzU4MzY2LnBuZ3xkMjY0OThhZTA0OTBiM2I1ZTk4NGQwMmFmYzUzNDMyMTA2NjNhOWRiMWZhZTYyOGY0ZThmNWRmYmM4MGQ5OGIw" alt="" width="50" height="50" /> <img src="//cdn.joules.com/medias/Mail-icon-50x50px.png?context=bWFzdGVyfGltYWdlc3wxNDI5fGltYWdlL3BuZ3xpbWFnZXMvaDVjL2hkNS85MTE5NDIzOTU0OTc0LnBuZ3w3YWU5NjhlMDhjNmZiMjBkOWRmYWU1OTJkNjgxMzgyNTMzMGY4NTQxZTRlY2FkYTQ3MThhNWNjZjQxZWNhMDMz" alt="" width="50" height="50" />
+				<h5><strong>Help &amp; Contact Us</strong></h5>
+				<ul>
+					<li>Phone : <strong>0345 250 7160</strong></li>
+					<li>Email : <strong><a class="linkUnderline" href="mailto:joulesteam@joules.com">joulesteam@joules.com</a></strong></li>
+					<li><a href="/email/edit" target="_self"> Need more help &gt; </a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div id="sl-block" class="footer-block text-center"><img src="//cdn.joules.com/medias/StoreLocator-icon-50x50px.png?context=bWFzdGVyfGltYWdlc3wxNDE1fGltYWdlL3BuZ3xpbWFnZXMvaDhlL2hmYy85MTE5NDI0MTUxNTgyLnBuZ3xkOWJiNTljN2YyOGZjNzc0MWQxOWE1ZjBlNDE4NDUxOTk4YzBkNzU5M2E3OTM1YjM2NDRkMDhjNTEzNDQ5N2Ni" alt="" width="50" height="50" />
+				<h5><strong>Store Locator</strong></h5>
+				<p><a href="/store-finder" target="_self"> Find your nearest Joules store, stockist or show &gt; </a></p>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	// <![CDATA[
+	(function() {
+		var dd = $('.click-rowa');
+
+		dd.addClass('disappear');
+
+		$('table').on('click', '.click-row', function() {
+			$(this).next().toggle(200).siblings('.click-rowa').slideUp(200);
+		});
+
+		$('.click-row').click(function() {
+			var $this = $(this);
+			$this.toggleClass('selected');
+
+			if ($this.hasClass('selected')) {
+				$this.siblings('.click-row').removeClass('selected');
+			}
+		});
+	})();
+	// ]]>
+</script>
